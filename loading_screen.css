@@ -1,0 +1,18 @@
+.loading_img {
+    padding-top: 15%;
+    text-align: center;
+}
+
+.act_loading_img {
+    animation: size-anim1 4900ms cubic-bezier(0.57, 0.07, 0.39, 1.55);
+}
+
+@keyframes size-anim1 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 500;
+    }
+}

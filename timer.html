@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="dashboard_script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <audio id="tone">
+        <source src="/Users/callumfrederiksen/Music/GarageBand/Quick Music.mp3" type="audio/mpeg">
+    </audio>
+    <input type="number" id="hours" placeholder="Hours" />
+    <input type="number" id="mins" placeholder="Minutes" />
+    <input type="number" id="secs" placeholder="Seconds" />
+
+    <button onclick="start_timer()">Start Timer</button>
+
+    <p id="timer_output"></p>
+    <p id="slider_output"></p>
+    <a href="dashboard.html">Back</a>
+</body>
+</html>
